@@ -13,7 +13,7 @@ jobs:
         run: cat /etc/os-release
 
       - name: Exibit uma mensagem
-        run: echo "Estou fazendo o curso de Github Actions da Linuxtips"
+        run: echo "Estou fazendo o curso de Github Actions da Linuxtips" > mensagem.txt
 
       - name: Outra coisa
         run: ls -alh
